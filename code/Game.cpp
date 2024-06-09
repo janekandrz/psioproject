@@ -45,7 +45,7 @@ void Game::initWindow()
 
 void Game::initFont()
 {
-    if (!font.loadFromFile("C:/vscode/psioproject/bin/Anton-Regular.ttf")) 
+    if (!font.loadFromFile("bin\\Anton-Regular.ttf")) 
     {
         std::cerr << "Error loading font" << std::endl;
     }
@@ -62,7 +62,7 @@ void Game::initScore()
 
 void Game::initScoreIcon()
 {
-    if(!scoreTexture.loadFromFile("C:/vscode/psioproject/bin/fruit_banana.png"))
+    if(!scoreTexture.loadFromFile("bin\\fruit_banana.png"))
     {
         std::cerr << "Error loading score icon" << std::endl;
     }
@@ -83,7 +83,7 @@ void Game::initLives()
 
 void Game::initLivesIcon()
 {
-    if(!livesTexture.loadFromFile("C:/vscode/psioproject/bin/heart.png"))
+    if(!livesTexture.loadFromFile("bin\\heart.png"))
     {
         std::cerr << "Error loading lives icon" << std::endl;
     }
@@ -95,7 +95,7 @@ void Game::initLivesIcon()
 
 void Game::initIcon()
 {
-    if (!icon.loadFromFile("C:/vscode/psioproject/bin/melonslice.jpg"))
+    if (!icon.loadFromFile("bin\\melonslice.jpg"))
     {
         std::cerr << "Error loading icon" << std::endl;
     }
@@ -105,7 +105,7 @@ void Game::initIcon()
 
 void Game::initRestartButton()
 {
-    if (!restartButtonT.loadFromFile("C:/vscode/psioproject/bin/restart_button.png"))
+    if (!restartButtonT.loadFromFile("bin\\restart_button.png"))
     {
         std::cerr << "Error loading restart button texture" << std::endl;
     }
@@ -119,7 +119,7 @@ void Game::initRestartButton()
 
 void Game::initSound()
 {
-    if (!sliceBuffer.loadFromFile("C:/vscode/psioprojectbin/swordsound.wav"))
+    if (!sliceBuffer.loadFromFile("bin\\swordsound.wav"))
     {
         std::cout << "Failed to load sound from file" << std::endl;
     }

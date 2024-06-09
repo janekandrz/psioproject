@@ -73,7 +73,7 @@ sf::Vector2f Hero::normalize(const sf::Vector2f& vector)
         {
             return vector / length;
         }
-        return vector;
+    return vector;
 }
 
 std::vector<sf::Vector2f> Hero::interpolate(const sf::Vector2f& start, const sf::Vector2f& end, float maxDistance) 

@@ -90,6 +90,7 @@ class Game
         void initSound();
         void initScoreSummary();
         void initHighScore();
+        void initClock();
     public:
         Game();
         virtual ~Game();
@@ -114,6 +115,7 @@ class Game
         void updateHighScore();
         void updateLives();
         void updateTargets();
+        void updateClock();
 
         //printing
         void update();

@@ -9,5 +9,5 @@ class GameEntity
 
         GameEntity();
         GameEntity(unsigned int m, float f, float d, float t);
-        ~GameEntity();
+        virtual ~GameEntity();
 };

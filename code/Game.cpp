@@ -348,6 +348,8 @@ void Game::drawObjcts()
 
         this->drawConsts();
 
+        
+
         //hero always last 
         _hero.trailDraw(window);
     }      
